@@ -1,4 +1,5 @@
 # Awesome-Heatmap-Analytics
+
 ## Top Heatmap Analytics Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
@@ -26,86 +27,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-* **[Hotjar](https://www.hotjar.com/)**
-  One of the best-known website behavior analytics platforms, combining click, move, and scroll heatmaps with session recordings, surveys, feedback, funnels, and user insights.
+| Product | Description | Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Hotjar](https://www.hotjar.com/)** | Website behavior analytics platform combining click, move, and scroll heatmaps with session recordings, feedback, and surveys. | $49 / month (billed annually for Growth tier, up to 500 daily sessions) | **Free Forever plan**: 35 daily sessions (~1,050 sessions/month) and 35 daily survey/feedback responses |
+| **[Microsoft Clarity](https://clarity.microsoft.com/)** | Behavioral analytics platform providing session recordings, heatmaps, rage-click/dead-click detection, and performance insights. | Free ($0 / month forever) | **Free Forever**: Unlimited sessions, heatmaps, recordings, and websites with no traffic caps |
+| **[Lucky Orange](https://www.luckyorange.com/)** | Conversion rate optimization suite combining dynamic heatmaps, session recordings, live visitor views, funnels, form analytics, and chat. | $32 / month (billed annually for Build plan, 3,500 monthly sessions) | **Free Forever plan**: 100 sessions/month, 30 days data storage (or 7-day free trial up to 10,000 sessions) |
+| **[Crazy Egg](https://www.crazyegg.com/)** | Website optimization platform offering click heatmaps, scrollmaps, confetti reports, list reports, session recordings, and A/B testing. | $29 / month (billed annually for Standard plan, 30,000 pageviews/month) | **30-day free trial**: 3,000 tracked pageviews and session recordings with full feature access |
+| **[Mouseflow](https://mouseflow.com/)** | Behavioral analytics platform offering heatmaps, session replay, funnels, form analytics, and user friction detection. | $25 / month (billed annually for Starter plan, 1,000 recordings/month) | **Free Forever plan**: 500 recordings/month, 1 website, 1 month data storage (or 14-day free trial) |
+| **[Smartlook](https://www.smartlook.com/)** | Product and user behavior analytics platform focused on session recording, heatmaps, event tracking, and funnels for web and mobile. | $55 / month (billed annually for Pro plan, 5,000 monthly sessions) | **Free Forever plan**: 3,000 monthly sessions, 1 month data retention (or 30-day free trial) |
+| **[VWO Insights](https://vwo.com/insights/)** | Behavioral analytics component of VWO providing heatmaps, session recordings, surveys, form analytics, and conversion funnels. | $199 / month (billed annually for Starter tier, 10,000 monthly tracked users) | **30-day free trial**: Full access to heatmaps and session recordings up to 10,000 monthly tracked visitors |
+| **[Inspectlet](https://www.inspectlet.com/)** | Website behavior analytics platform providing session recordings, dynamic heatmaps, event tracking, and error logging. | $39 / month (Micro plan for 10,000 recorded sessions/month) | **Free Forever plan**: 2,500 recorded sessions/month, 1 month data storage |
+| **[Zoho PageSense](https://www.zoho.com/pagesense/)** | Conversion optimization and website analytics platform providing heatmaps, session recordings, funnel analysis, form analytics, and A/B testing. | $16 / month (billed annually for 10,000 monthly tracked visitors) | **Free Forever plan**: 5,000 monthly tracked visitors, 3 active goals (plus 15-day full-feature free trial) |
+| **[Ptengine](https://www.ptengine.com/)** | Digital experience analytics platform offering heatmaps, event tracking, user segmentation, and conversion analysis. | $49 / month (billed annually for Growth plan, 10,000 pageviews/month) | **Free Forever plan**: 3,000 pageviews/month, 1 heatmap, 100 custom events (plus 14-day free trial) |
+| **[FullStory](https://www.fullstory.com/)** | Digital experience intelligence platform centered on session replay, behavioral heatmaps, product analytics, and interaction analysis. | $299 / month (Business tier entry, billed annually) | **Fullstory Free plan**: 30,000 sessions/month, 10 user seats, 12 months data retention (or 14-day free trial with 5,000 sessions) |
+| **[Contentsquare](https://contentsquare.com/)** | Digital experience analytics platform providing experience insights, journey analysis, session replay, zoning/heatmap analysis, and conversion optimization. | $39 / month (Growth plan base tier) | **Free plan**: 200,000 sessions/month (or 30-day full enterprise free trial) |
+| **[Glassbox](https://www.glassbox.com/)** | Digital experience analytics platform focused on session replay, customer journey analytics, behavioral insights, and experience monitoring. | $833 / month (~$10,000/year starting enterprise license) | **14-day free trial**: Up to 5,000 sessions with full session replay and analytics upon demo request |
+| **[Decibel (Medallia DXA)](https://www.decibel.com/)** | Digital experience analytics technology providing session replay, behavioral heatmaps, and experience optimization (integrated into Medallia). | $1,250 / month (~$15,000/year entry tier based on Experience Data Records) | **14-day free trial**: Guided proof-of-concept trial upon request (no permanent free tier) |
+| **[Quantum Metric](https://www.quantummetric.com/)** | Continuous product design and digital experience platform offering session replay, behavioral analytics, and friction identification. | $2,083 / month (~$25,000/year entry base tier) | **14-day free trial**: Guided proof-of-concept trial with full platform access upon request |
+| **[LogRocket](https://logrocket.com/)** | Frontend digital experience platform combining session replay, heatmaps, product analytics, performance monitoring, and error diagnostics. | $69 / month (billed annually for Team plan, 10,000 sessions/month) | **Free Forever plan**: 1,000 sessions/month, 1 month data retention (plus 14-day free trial) |
+| **[Heap](https://www.heap.io/)** | Product analytics platform with automatic event capture, behavioral analysis, session replay, funnels, and journey maps (Contentsquare). | $39 / month (Growth plan base tier) | **Free Forever plan**: 10,000 sessions/month, 6 months data history, unlimited enrichment sources |
+| **[Amplitude](https://amplitude.com/)** | Product analytics platform with behavioral event analysis, customer journeys, funnels, session replay, and user-level insights. | $49 / month (Plus plan starting entry tier) | **Free Starter plan**: 2 million events/month, unlimited seats, core analytics & funnels |
+| **[Mixpanel](https://mixpanel.com/)** | Event-based product analytics platform focused on behavioral analysis, conversion funnels, retention cohorts, and user journeys. | $24 / month (Growth plan, up to 100,000 events/month) | **Free Forever plan**: 20 million events/month, core reports, unlimited collaborators |
+| **[SessionCam](https://www.sessioncam.com/)** | Session-replay and customer-experience analytics technology (now part of Glassbox) for identifying digital friction and drop-offs. | $833 / month (Integrated into Glassbox starting tier) | **14-day free trial**: Available via Glassbox demo program (up to 5,000 sessions) |
+| **[Yandex Metrica](https://metrica.yandex.com/)** | Web analytics service providing session replay (WebVisor), click maps, scroll maps, link maps, and form analytics. | Free ($0 / month standard; Metrica Pro starts at ~₽300,000 / month for 500M hits/month) | **Free forever**: Unlimited pageviews, sessions, heatmaps, and session recordings (API limit: 5,000 requests/day) |
+| **[Plerdy](https://www.plerdy.com/)** | CRO platform offering dynamic click heatmaps, SEO audit tools, session recordings, popup surveys, and conversion tracking. | $21 / month (billed annually for Start plan, 2,000 pageviews/day) | **Free Forever plan**: 100 heatmaps/day, 500 total video sessions, 5,000 SEO audit checks, 1-month storage |
+| **[Attention Insight](https://attentioninsight.com/)** | AI-powered visual attention prediction platform generating instant predictive heatmaps, focus maps, and clarity scores. | $23 / month (billed annually for Solo plan, 30 credits/month) | **14-day free trial**: 15 analysis credits (1 credit = 1 image or URL heatmap scan) |
+| **[MouseStats](https://www.mousestats.com/)** | Website visitor behavior platform providing session recordings, click/scroll/move heatmaps, and form analytics. | $25 / month (billed annually for Starter plan, 15,000 pageviews/month) | **Free Forever plan**: 500 recorded sessions/month, 1 website, 1 month data storage |
+| **[Heatmap.com](https://heatmap.com/)** | E-commerce and revenue-focused website analytics platform providing real-time heatmaps tied to sales and conversion data. | $349 / month (Starter plan for revenue-attribution heatmaps) | **7-day free trial**: Full feature access to revenue heatmaps and conversion tracking |
 
-* **[Microsoft Clarity](https://clarity.microsoft.com/)**
-  Free behavioral analytics platform providing session recordings, heatmaps, rage-click detection, dead-click detection, excessive-scroll detection, and website performance insights.
-
-* **[Lucky Orange](https://www.luckyorange.com/)**
-  Conversion-rate-optimization platform combining dynamic heatmaps, session recordings, live visitor views, funnels, form analytics, surveys, and chat.
-
-* **[Crazy Egg](https://www.crazyegg.com/)**
-  Website optimization platform offering heatmaps, scrollmaps, confetti reports, list reports, session recordings, A/B testing, and visitor behavior analysis.
-
-* **[Mouseflow](https://mouseflow.com/)**
-  Behavioral analytics platform offering heatmaps, session replay, funnels, form analytics, friction detection, and user behavior insights.
-
-* **[Smartlook](https://www.smartlook.com/)**
-  Product and behavior analytics platform focused on session recording, event analytics, funnels, and user behavior analysis for websites and applications.
-
-* **[VWO Insights](https://vwo.com/insights/)**
-  Behavioral analytics component of VWO providing heatmaps, session recordings, surveys, form analytics, and user behavior insights for conversion optimization.
-
-* **[Inspectlet](https://www.inspectlet.com/)**
-  Website behavior analytics platform providing session recordings, heatmaps, dynamic heatmaps, event tracking, and user interaction analysis.
-
-* **[Zoho PageSense](https://www.zoho.com/pagesense/)**
-  Conversion optimization and website analytics platform providing heatmaps, session recordings, funnel analysis, form analytics, polls, and A/B testing.
-
-* **[Ptengine](https://www.ptengine.com/)**
-  Digital experience analytics platform offering heatmaps, event tracking, segmentation, conversion analysis, and user behavior insights.
-
-* **[FullStory](https://www.fullstory.com/)**
-  Digital experience analytics platform centered on session replay, behavioral data, product analytics, and interaction analysis.
-
-* **[Contentsquare](https://contentsquare.com/)**
-  Digital experience analytics platform providing experience insights, journey analysis, session replay, zoning/heatmap analysis, and conversion optimization.
-
-* **[Glassbox](https://www.glassbox.com/)**
-  Digital experience analytics platform focused on session replay, journey analytics, behavioral insights, and experience monitoring.
-
-* **[Decibel](https://www.decibel.com/)**
-  Digital experience analytics technology focused on behavioral analysis, session replay, and experience optimization; its technology is now part of Medallia.
-
-* **[Quantum Metric](https://www.quantummetric.com/)**
-  Digital product analytics and experience platform providing session replay, behavioral analysis, friction identification, and conversion insights.
-
-* **[LogRocket](https://logrocket.com/)**
-  Developer-oriented digital experience platform combining session replay, product analytics, performance monitoring, and error diagnostics.
-
-* **[Heap](https://www.heap.io/)**
-  Product analytics platform that automatically captures user interactions and provides behavioral analysis, funnels, journeys, and session-level insights.
-
-* **[Amplitude](https://amplitude.com/)**
-  Product analytics platform with behavioral event analysis, journeys, funnels, session replay, experimentation, and user-level product insights.
-
-* **[Mixpanel](https://mixpanel.com/)**
-  Product analytics platform focused on event-based behavioral analysis, funnels, retention, cohorts, and user journeys.
-
-* **[Contentsquare Heap](https://www.contentsquare.com/)**
-  Enterprise digital-experience ecosystem combining product analytics and experience insights to analyze user behavior across digital properties.
-
-* **[SessionCam](https://www.sessioncam.com/)**
-  Session-replay and customer-experience analytics technology used to identify friction and optimize digital journeys.
-
-* **[Yandex Metrica](https://metrica.yandex.com/)**
-  Web analytics service providing session replay, click maps, scroll maps, and user-behavior reports.
-
-* **[Plerdy](https://www.plerdy.com/)**
-  CRO platform offering click heatmaps, SEO tools, session recordings, conversion analytics, and website usability insights.
-
-* **[Attention Insight](https://attentioninsight.com/)**
-  AI-powered attention prediction platform that generates visual attention/heatmap predictions from website and design assets rather than relying exclusively on observed visitor clicks.
-
-* **[MouseStats](https://www.mousestats.com/)**
-  Website visitor behavior platform providing session recordings, heatmaps, form analytics, and visitor interaction analysis.
-
-* **[Heatmap.com](https://heatmap.com/)**
-  Website analytics platform focused on real-time heatmaps, visitor behavior, and conversion optimization.
-
-* **[Lucky Orange](https://www.luckyorange.com/)**
-  Combines heatmaps with session recordings, live visitor tracking, funnels, forms, surveys, and conversion tools.
 
 ## Open-Source GitHub Projects
 
