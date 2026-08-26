@@ -1,327 +1,341 @@
 # Awesome-Heatmap-Analytics
+## Top Heatmap Analytics Ecosystem
 
-# Top Hospital Bed Management Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Hospital Bed Management, Patient Flow, Capacity Management & Hospital Operations*  
-**Last updated: August 2026**
-
-This repository tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Hospital Bed Management**. These systems help hospitals manage bed availability, patient placement, admissions, transfers, discharges, housekeeping/bed turnover, capacity forecasting, patient flow, and hospital-wide operational coordination.
-
-**Examples** include TeleTracking, LeanTaaS iQueue, Central Logic, Care Logistics, GE HealthCare Command Center, Qventus, Hospital IQ, Infor, Oracle Health, Palantir, and related patient-flow and capacity-management platforms.
-
-**Open-source emphasis**: This section is heavily expanded with open-source hospital-management systems, bed-management applications, patient-flow prediction projects, hospital-capacity analytics, queue-management systems, healthcare interoperability infrastructure, and building blocks that can be combined into a self-hosted bed-management platform.
-
-Modern hospital bed management increasingly goes beyond simply displaying "available beds". Advanced platforms combine **real-time bed status, admission/discharge prediction, patient placement, environmental services, transfer management, ED boarding, capacity forecasting, command-center dashboards, staffing constraints, and AI/prescriptive analytics**.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-- [Hospital Bed Management Stack](#hospital-bed-management-stack)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[TeleTracking](https://www.teletracking.com/)**  
-  Hospital operations and patient-flow platform focused on bed management, capacity management, patient placement, environmental services, transport, transfer management, and operational automation. Its Operations IQ platform provides an operational layer over the EMR for capacity planning, patient flow, and discharge workflows. :contentReference[oaicite:0]{index=0}
-
-- **[LeanTaaS iQueue](https://leantaas.com/)**  
-  AI-driven capacity-management platform with iQueue for Inpatient Flow/Beds, providing predictive and prescriptive analytics for bed capacity, admissions, discharges, patient flow, and staffing. :contentReference[oaicite:1]{index=1}
-
-- **[Central Logic](https://www.centrallogic.com/)**  
-  Patient-flow and transfer-center platform focused on managing transfers, referrals, patient placement, capacity visibility, and access to care across health systems.
-
-- **[Care Logistics](https://carelogistics.com/)**  
-  Hospital patient-flow and capacity-management platform providing operational visibility into beds, patient movement, staffing, transport, environmental services, and throughput.
-
-- **[GE HealthCare Command Center](https://www.gehealthcare.com/)**  
-  Command-center technology for hospital operations that aggregates clinical and operational data to provide system-wide visibility into patient flow, capacity, staffing, and resource utilization.
-
-- **[Qventus](https://www.qventus.com/)**  
-  AI-powered hospital operations and patient-flow platform providing discharge planning, capacity intelligence, flow prioritization, and operational recommendations. Its Capacity Intelligence capabilities identify high-impact actions for improving throughput. :contentReference[oaicite:2]{index=2}
-
-- **[Hospital IQ](https://www.hospiq.com/)**  
-  Hospital operations analytics and command-center platform focused on patient flow, capacity management, operational intelligence, and predictive analytics.
-
-- **[Infor Cloverleaf](https://www.infor.com/solutions/healthcare)**  
-  Healthcare interoperability and integration platform from Infor that can support patient-flow and hospital-operational data integration across clinical systems.
-
-- **[Oracle Health Patient Flow](https://www.oracle.com/health/)**  
-  Healthcare technology ecosystem providing capabilities around patient flow, clinical operations, capacity, and hospital resource management.
-
-- **[Oracle Health Command Center](https://www.oracle.com/health/)**  
-  Hospital operational and clinical-data capabilities designed to provide centralized visibility and decision support across healthcare organizations.
-
-- **[Palantir Foundry for Healthcare](https://www.palantir.com/)**  
-  Data and operations platform that can be used to integrate EHR, operational, staffing, capacity, and logistics data for hospital command-center and patient-flow applications.
-
-- **[Microsoft Cloud for Healthcare](https://www.microsoft.com/en-us/industry/health/microsoft-cloud-for-healthcare)**  
-  Healthcare cloud ecosystem providing data, analytics, interoperability, AI, and workflow infrastructure that can support hospital capacity and patient-flow applications.
-
-- **[CareAware Patient Flow](https://www.cerner.com/)**  
-  Oracle Health/Cerner ecosystem capability supporting patient-flow and operational workflows across hospital environments.
-
-- **[PerfectServe](https://www.perfectserve.com/)**  
-  Healthcare communication and clinical workflow platform that can support patient-flow coordination by connecting care teams, physicians, nurses, and operational staff.
-
-- **[Medworxx](https://www.medworxx.com/)**  
-  Healthcare workflow and patient-flow technology focused on patient placement, bed management, utilization, and hospital capacity.
-
-- **[TeleTracking Capacity](https://www.teletracking.com/)**  
-  Capacity-management capabilities within TeleTracking designed to provide visibility into current and future bed capacity and improve patient placement and throughput.
-
-- **[TeleTracking Operations IQ](https://www.teletracking.com/)**  
-  Operational intelligence layer designed to integrate operational workflows with EMR data and provide enterprise-wide situational awareness for hospital capacity and patient flow. :contentReference[oaicite:3]{index=3}
-
-- **[GE Command Center](https://www.gehealthcare.com/)**  
-  Hospital command-center ecosystem focused on real-time operational visibility, predictive analytics, and coordinated decision-making.
-
-- **[Infor Patient Flow](https://www.infor.com/solutions/healthcare)**  
-  Healthcare workflow capabilities supporting patient-flow, capacity, and operational coordination.
-
-- **[Epic Patient Flow](https://www.epic.com/)**  
-  Epic's hospital information system includes patient-flow and operational capabilities for managing admissions, transfers, discharges, and patient placement.
-
-- **[Strata Decision Technology](https://www.stratadecision.com/)**  
-  Healthcare analytics and decision-support platform that can support capacity planning and operational management.
-
-- **[Access Patient Flow](https://www.accessexcellence.com/)**  
-  Patient-flow and operational technology supporting hospital capacity, discharge, patient placement, and flow coordination.
-
-- **[Sonitor](https://sonitor.com/)**  
-  Real-time location technology that can provide location intelligence for patients, staff, and assets, supporting hospital-flow and operational workflows.
-
-- **[Stryker](https://www.stryker.com/)**  
-  Healthcare technology company with connected hospital solutions and operational technologies that can contribute to patient-flow, asset tracking, and hospital operations.
-
-- **[LeanTaaS iQueue for Inpatient Flow](https://leantaas.com/products/inpatient-flow/)**  
-  Predictive and prescriptive capacity-management solution that continuously monitors patient demand, available beds, staffing needs, and operational bottlenecks. :contentReference[oaicite:4]{index=4}
-
-## Open-Source GitHub Projects
-
-- **[UCL-CORU PatientFlow](https://github.com/UCL-CORU/patientflow)**  
-  Open-source Python package for predicting short-term hospital bed demand using real-time or near-real-time patient data. It predicts future bed requirements for current and incoming patients and is explicitly designed to provide actionable outputs for hospital bed managers. :contentReference[oaicite:5]{index=5}
-
-- **[BedFlow AI](https://github.com/draculess99/BedFlow_AI)**  
-  Open-source AI-driven hospital bed-management project designed to predict bed availability and recommend optimal placement to reduce bottlenecks and waiting times. :contentReference[oaicite:6]{index=6}
-
-- **[Hospital Bed Management System](https://github.com/Ansarimajid/Hospital-Management-System)**  
-  Open-source hospital-management project specifically including bed availability and allocation functionality. It provides a starting point for building customized bed-management applications. :contentReference[oaicite:7]{index=7}
-
-- **[VitalBed](https://github.com/iamabhrajit24/VitalBed)**  
-  Open-source hospital bed-management application featuring bed allocation, real-time dashboards, bed-cleaning workflows, emergency escalation, and patient admission-request tracking. :contentReference[oaicite:8]{index=8}
-
-- **[MediQ](https://github.com/adot-7/MediQ)**  
-  Open-source hospital-management application with real-time bed-availability tracking across hospital wards and departments, alongside patient queues, admissions, and inventory functionality. :contentReference[oaicite:9]{index=9}
-
-- **[Hospital Bed Management and Availability System](https://github.com/4devendrathakur/Hospital-bed-management-and-availability-system)**  
-  Open-source project focused on hospital bed availability and broader hospital-management workflows including admissions, bed booking, patient management, and reporting. :contentReference[oaicite:10]{index=10}
-
-- **[OpenMRS](https://github.com/openmrs/openmrs-core)**  
-  Major open-source medical-record platform that can serve as an EHR foundation for building admission, discharge, patient-location, and bed-management workflows.
-
-- **[OpenEMR](https://github.com/openemr/openemr)**  
-  Open-source electronic medical-record and practice-management platform that can provide patient and encounter infrastructure for custom hospital operations applications.
-
-- **[GNU Health](https://github.com/gnuhealth/gnuhealth)**  
-  Open-source health and hospital information system providing patient, clinical, administrative, and facility-management capabilities.
-
-- **[Bahmni](https://github.com/Bahmni/bahmni-erp)**  
-  Open-source hospital information system combining clinical workflows, registration, laboratory, pharmacy, and hospital-management functionality. It can serve as a foundation for custom patient-flow and bed-management modules.
-
-- **[HospitalRun](https://github.com/HospitalRun/hospitalrun)**  
-  Open-source hospital information system designed for resource-constrained healthcare environments, with patient and hospital operational workflows.
-
-- **[ERPNext Healthcare](https://github.com/frappe/erpnext)**  
-  Open-source ERP platform with healthcare functionality that can be extended for admissions, appointments, patient records, resources, and hospital operations.
-
-- **[GNU Health Hospital Management](https://www.gnuhealth.org/)**  
-  Open-source healthcare information system covering clinical and administrative workflows and capable of serving as a broader foundation for hospital operations.
-
-- **[Open Hospital](https://github.com/informatici/openhospital)**  
-  Open-source hospital information system supporting patient records, admissions, clinical workflows, pharmacy, laboratory, and hospital administration.
-
-- **[Hospital Management System](https://github.com/Ansarimajid/Hospital-Management-System)**  
-  Lightweight open-source implementation focused specifically on bed availability, allocation, and hospital-management workflows.
-
-- **[EASPATAAL](https://github.com/gaureshpai/easpataal)**  
-  Open-source hospital queue-management project designed to reduce waiting times and coordinate patient movement through hospital departments. The repository is currently archived, so it is better treated as a reference implementation than a production dependency. :contentReference[oaicite:11]{index=11}
-
-- **[OpenBoxes](https://github.com/openboxes/openboxes)**  
-  Open-source inventory and supply-chain management system for healthcare environments. While not a bed-management platform, it can provide an operational foundation for hospital resource and logistics workflows.
-
-- **[OpenELIS Global](https://github.com/openelisglobal/openelisglobal-core)**  
-  Open-source laboratory information system that can contribute laboratory-status data to a larger patient-flow architecture.
-
-- **[OpenHIM](https://github.com/jembi/openhim-core)**  
-  Open-source interoperability layer for healthcare systems, useful for connecting EHRs, hospital-management systems, patient-flow engines, and operational dashboards.
-
-- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)**  
-  Open-source FHIR implementation useful for building interoperable healthcare data infrastructure connecting patient, encounter, location, admission, transfer, and operational systems.
-
-- **[Medplum](https://github.com/medplum/medplum)**  
-  Open-source healthcare developer platform based around FHIR, useful for building custom patient-flow, admission, location, and operational applications.
-
-- **[Synthea](https://github.com/synthetichealth/synthea)**  
-  Open-source synthetic patient generator useful for developing and testing hospital bed-management and patient-flow algorithms without exposing real patient information.
-
-- **[MIMIC-IV](https://github.com/MIT-LCP/mimic-iv)**  
-  Large critical-care dataset ecosystem useful for research into patient flow, length of stay, admissions, discharge prediction, and hospital operations, subject to its data-access requirements.
-
-- **[OHDSI](https://github.com/OHDSI)**  
-  Open-source ecosystem for observational healthcare data and analytics, useful for developing population-level models that can inform hospital capacity and patient-flow systems.
-
-- **[Apache Superset](https://github.com/apache/superset)**  
-  Open-source analytics and dashboard platform suitable for building hospital capacity dashboards over bed, admission, discharge, and operational datasets.
-
-- **[Grafana](https://github.com/grafana/grafana)**  
-  Open-source observability and dashboarding platform that can be used to visualize real-time bed occupancy, admissions, discharges, transfers, environmental-services status, and capacity metrics.
-
-- **[Apache Airflow](https://github.com/apache/airflow)**  
-  Open-source workflow orchestration platform useful for scheduling hospital operational-data pipelines and recurring capacity analytics.
-
-- **[Apache Kafka](https://github.com/apache/kafka)**  
-  Open-source event-streaming platform suitable for real-time propagation of bed-status changes, patient movement events, admissions, discharges, transfers, and environmental-services events.
-
-### Additional Strong Open-Source Options
-
-- **UCL-CORU PatientFlow** — short-term predictive hospital bed-demand forecasting.
-- **BedFlow AI** — AI-assisted bed availability and placement prototype.
-- **VitalBed** — real-time bed allocation and operational workflow prototype.
-- **MediQ** — bed availability and hospital-management application.
-- **OpenMRS** — extensible open-source EHR foundation.
-- **OpenEMR** — open-source medical-record platform.
-- **Bahmni** — open-source hospital information system.
-- **GNU Health** — open-source hospital and health information system.
-- **Open Hospital** — open-source hospital-management system.
-- **HospitalRun** — open-source hospital information system.
-- **ERPNext Healthcare** — open-source ERP/healthcare foundation.
-- **HAPI FHIR** — FHIR interoperability infrastructure.
-- **OpenHIM** — healthcare interoperability middleware.
-- **Medplum** — developer-oriented FHIR platform.
-- **Synthea** — synthetic patient data generation for testing.
-- **MIMIC-IV** — research dataset for healthcare analytics and prediction.
-- **OHDSI** — open healthcare analytics ecosystem.
-- **Grafana** — real-time operational dashboards.
-- **Apache Superset** — business intelligence and capacity reporting.
-- **Apache Kafka** — real-time hospital-event streaming.
-- **Apache Airflow** — healthcare-data pipeline orchestration.
-
-**Important distinction**: There are relatively few mature open-source projects that directly replicate the full functionality of enterprise platforms such as **TeleTracking, LeanTaaS iQueue, Care Logistics, or GE HealthCare Command Center**. The strongest open-source approach is generally compositional: combine an **EHR/FHIR layer + real-time event infrastructure + bed-management application + predictive models + dashboarding + workflow automation**.
-
-## Hospital Bed Management Stack
-
-A modern open-source **Hospital Bed Management Platform** can be assembled from several independent layers:
-
-1. **EHR / Clinical Data** — OpenMRS, OpenEMR, Bahmni, GNU Health
-2. **Healthcare Interoperability** — HAPI FHIR, OpenHIM, Medplum
-3. **Patient Identity** — MPI/FHIR Patient resources
-4. **Bed & Location Model** — FHIR Location, Encounter and custom bed-management services
-5. **Real-Time Events** — Apache Kafka
-6. **Operational Database** — PostgreSQL
-7. **Bed Availability** — custom bed-state service / VitalBed-style application
-8. **Patient Placement** — rules engine + constraint-based optimization
-9. **Admissions Forecasting** — UCL-CORU PatientFlow
-10. **Discharge Prediction** — custom ML models / patient-flow models
-11. **Capacity Forecasting** — Python, scikit-learn, XGBoost, PyTorch
-12. **Queue Management** — custom queueing models
-13. **Environmental Services** — bed-cleaning / turnover workflow
-14. **Transport Coordination** — event-driven workflow services
-15. **Transfer Management** — FHIR + workflow engine
-16. **Command Center** — Grafana / Apache Superset
-17. **Operational Analytics** — Apache Superset
-18. **Workflow Automation** — Apache Airflow / Temporal
-19. **Machine Learning** — PyTorch / scikit-learn / XGBoost
-20. **Synthetic Testing** — Synthea
-21. **Observability** — Prometheus + Grafana
-22. **Deployment** — Docker + Kubernetes
-
-A practical self-hosted architecture could look like:
-
-**OpenMRS / OpenEMR / FHIR → HAPI FHIR / OpenHIM → Kafka → Bed Management Service → PostgreSQL → Patient-Flow Prediction → Optimization Engine → Grafana / Superset Command Center**
-
-### Core Bed Management Functions
-
-- **Real-Time Bed Census** — current occupied, available, blocked, dirty, cleaning, reserved, and unavailable beds.
-- **Bed Allocation** — assign patients to appropriate beds based on clinical and operational constraints.
-- **Patient Placement** — match patients with suitable units and beds.
-- **Admission Management** — track pending admissions and expected bed requirements.
-- **Transfer Management** — coordinate inter-unit and inter-facility transfers.
-- **Discharge Management** — predict and track expected discharges.
-- **Bed Turnover** — track when beds become available after discharge and environmental-services completion.
-- **Housekeeping Coordination** — coordinate cleaning and bed readiness.
-- **ED Boarding** — monitor admitted patients waiting for inpatient beds.
-- **Capacity Forecasting** — estimate future bed requirements.
-- **Surge Management** — identify upcoming capacity constraints.
-- **Staffing Constraints** — incorporate staffing availability into capacity calculations.
-- **Isolation Requirements** — account for infection-control and room constraints.
-- **Specialty Matching** — route patients to clinically appropriate units.
-- **Escalation Management** — alert operational teams when bottlenecks require intervention.
-- **Command Center** — centralized operational view across facilities.
-- **Predictive Analytics** — forecast admissions, discharges, transfers, and bed demand.
-- **Prescriptive Analytics** — recommend actions to improve throughput.
-- **Hospital-Wide Capacity** — coordinate capacity across multiple hospitals and facilities.
-
-### Key Hospital Capacity Metrics
-
-- **Bed Occupancy Rate**
-- **Available Beds**
-- **Blocked Beds**
-- **Dirty Beds**
-- **Bed Turnaround Time**
-- **ED Boarding Time**
-- **Admission-to-Bed Time**
-- **Discharge-to-Bed-Available Time**
-- **Average Length of Stay**
-- **Expected Discharges**
-- **Actual Discharges**
-- **Admissions per Hour**
-- **Transfers per Hour**
-- **Transfer Declines**
-- **Patients Waiting for Beds**
-- **Patients Awaiting Discharge**
-- **Diversion Status**
-- **Unit-Level Occupancy**
-- **Hospital-Level Occupancy**
-- **ICU Capacity**
-- **Isolation Capacity**
-- **Staffing-Constrained Capacity**
-- **Forecasted Bed Demand**
-- **Capacity Buffer**
-- **Surge Capacity**
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Prioritize actively maintained projects with meaningful bed-management, patient-flow, capacity-management, healthcare interoperability, or hospital-operations functionality.
-5. Verify the project's current license before describing it as open source.
-6. Distinguish between a **complete bed-management application** and a **building block** that can be used to construct one.
-7. Submit a PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated list** — not exhaustive and not an endorsement.
-- Enterprise hospital bed-management platforms and open-source projects have substantially different feature sets, deployment models, scalability, support models, and regulatory capabilities.
-- There are comparatively few mature open-source projects that provide the complete functionality of commercial hospital command-center and bed-management platforms.
-- Many open-source projects listed here are components, research tools, prototypes, EHR systems, interoperability frameworks, or analytics libraries rather than direct replacements for enterprise bed-management products.
-- Healthcare data is highly sensitive. Production systems must implement appropriate privacy, security, authentication, authorization, audit logging, encryption, and data-governance controls.
-- Healthcare interoperability standards such as **FHIR, HL7 v2, DICOM, and IHE** should be considered when integrating clinical and operational systems.
-- Predictive models should augment rather than replace qualified hospital operational judgment.
-- Bed-placement algorithms may affect patient care and therefore require appropriate clinical governance, validation, monitoring, and human oversight.
-- Open-source software licensing varies between projects; always verify the current license and any commercial or enterprise-edition restrictions before deployment.
-- Research datasets such as MIMIC-IV have their own access and usage requirements and should not be treated as freely redistributable production data.
-- Hospital-specific workflows, staffing models, clinical requirements, infection-control policies, and regulatory requirements should be validated before deploying a custom bed-management system.
-
----
-
-**Made for hospital operations teams, patient-flow managers, bed managers, command centers, healthcare IT teams, clinical operations researchers, data scientists, ML engineers, and open-source healthcare developers.**  
-Let's make hospital capacity management more open, data-driven, interoperable, predictive, and efficient.
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Website Heatmaps, Click Tracking, Scroll Analytics, Session Replay & User Behavior Analytics*
+**Last updated: August 2026**
+
+This repository tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Heatmap Analytics**. These tools help product teams, marketers, UX researchers, CRO specialists, and developers understand how visitors interact with websites and applications through click maps, scroll maps, movement maps, attention maps, session recordings, funnels, and behavioral analytics.
+
+**Examples** include Hotjar, Microsoft Clarity, Lucky Orange, Crazy Egg, Mouseflow, Smartlook, VWO Insights, Inspectlet, Zoho PageSense, and Ptengine.
+
+**Open-source emphasis**: This section is heavily expanded with self-hostable behavioral-analytics platforms, open-source heatmap implementations, session-replay systems, web-analytics platforms with heatmap capabilities, and developer libraries for building custom heatmap infrastructure. Projects that provide direct heatmaps are prioritized, followed by broader open-source analytics platforms that can provide much of the surrounding behavioral-analytics stack.
+
+Modern heatmap analytics increasingly combines **click heatmaps, scroll depth, mouse movement, rage clicks, dead clicks, session replay, conversion funnels, form analytics, event tracking, user journeys, A/B testing, and privacy-preserving analytics**.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+
+* [SaaS/Hosted Platforms](#saashosted-platforms)
+* [Open-Source GitHub Projects](#open-source-github-projects)
+* [Additional Strong Open-Source Options](#additional-strong-open-source-options)
+* [Heatmap Analytics Stack](#heatmap-analytics-stack)
+* [How to Contribute](#how-to-contribute)
+* [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+* **[Hotjar](https://www.hotjar.com/)**
+  One of the best-known website behavior analytics platforms, combining click, move, and scroll heatmaps with session recordings, surveys, feedback, funnels, and user insights.
+
+* **[Microsoft Clarity](https://clarity.microsoft.com/)**
+  Free behavioral analytics platform providing session recordings, heatmaps, rage-click detection, dead-click detection, excessive-scroll detection, and website performance insights.
+
+* **[Lucky Orange](https://www.luckyorange.com/)**
+  Conversion-rate-optimization platform combining dynamic heatmaps, session recordings, live visitor views, funnels, form analytics, surveys, and chat.
+
+* **[Crazy Egg](https://www.crazyegg.com/)**
+  Website optimization platform offering heatmaps, scrollmaps, confetti reports, list reports, session recordings, A/B testing, and visitor behavior analysis.
+
+* **[Mouseflow](https://mouseflow.com/)**
+  Behavioral analytics platform offering heatmaps, session replay, funnels, form analytics, friction detection, and user behavior insights.
+
+* **[Smartlook](https://www.smartlook.com/)**
+  Product and behavior analytics platform focused on session recording, event analytics, funnels, and user behavior analysis for websites and applications.
+
+* **[VWO Insights](https://vwo.com/insights/)**
+  Behavioral analytics component of VWO providing heatmaps, session recordings, surveys, form analytics, and user behavior insights for conversion optimization.
+
+* **[Inspectlet](https://www.inspectlet.com/)**
+  Website behavior analytics platform providing session recordings, heatmaps, dynamic heatmaps, event tracking, and user interaction analysis.
+
+* **[Zoho PageSense](https://www.zoho.com/pagesense/)**
+  Conversion optimization and website analytics platform providing heatmaps, session recordings, funnel analysis, form analytics, polls, and A/B testing.
+
+* **[Ptengine](https://www.ptengine.com/)**
+  Digital experience analytics platform offering heatmaps, event tracking, segmentation, conversion analysis, and user behavior insights.
+
+* **[FullStory](https://www.fullstory.com/)**
+  Digital experience analytics platform centered on session replay, behavioral data, product analytics, and interaction analysis.
+
+* **[Contentsquare](https://contentsquare.com/)**
+  Digital experience analytics platform providing experience insights, journey analysis, session replay, zoning/heatmap analysis, and conversion optimization.
+
+* **[Glassbox](https://www.glassbox.com/)**
+  Digital experience analytics platform focused on session replay, journey analytics, behavioral insights, and experience monitoring.
+
+* **[Decibel](https://www.decibel.com/)**
+  Digital experience analytics technology focused on behavioral analysis, session replay, and experience optimization; its technology is now part of Medallia.
+
+* **[Quantum Metric](https://www.quantummetric.com/)**
+  Digital product analytics and experience platform providing session replay, behavioral analysis, friction identification, and conversion insights.
+
+* **[LogRocket](https://logrocket.com/)**
+  Developer-oriented digital experience platform combining session replay, product analytics, performance monitoring, and error diagnostics.
+
+* **[Heap](https://www.heap.io/)**
+  Product analytics platform that automatically captures user interactions and provides behavioral analysis, funnels, journeys, and session-level insights.
+
+* **[Amplitude](https://amplitude.com/)**
+  Product analytics platform with behavioral event analysis, journeys, funnels, session replay, experimentation, and user-level product insights.
+
+* **[Mixpanel](https://mixpanel.com/)**
+  Product analytics platform focused on event-based behavioral analysis, funnels, retention, cohorts, and user journeys.
+
+* **[Contentsquare Heap](https://www.contentsquare.com/)**
+  Enterprise digital-experience ecosystem combining product analytics and experience insights to analyze user behavior across digital properties.
+
+* **[SessionCam](https://www.sessioncam.com/)**
+  Session-replay and customer-experience analytics technology used to identify friction and optimize digital journeys.
+
+* **[Yandex Metrica](https://metrica.yandex.com/)**
+  Web analytics service providing session replay, click maps, scroll maps, and user-behavior reports.
+
+* **[Plerdy](https://www.plerdy.com/)**
+  CRO platform offering click heatmaps, SEO tools, session recordings, conversion analytics, and website usability insights.
+
+* **[Attention Insight](https://attentioninsight.com/)**
+  AI-powered attention prediction platform that generates visual attention/heatmap predictions from website and design assets rather than relying exclusively on observed visitor clicks.
+
+* **[MouseStats](https://www.mousestats.com/)**
+  Website visitor behavior platform providing session recordings, heatmaps, form analytics, and visitor interaction analysis.
+
+* **[Heatmap.com](https://heatmap.com/)**
+  Website analytics platform focused on real-time heatmaps, visitor behavior, and conversion optimization.
+
+* **[Lucky Orange](https://www.luckyorange.com/)**
+  Combines heatmaps with session recordings, live visitor tracking, funnels, forms, surveys, and conversion tools.
+
+## Open-Source GitHub Projects
+
+* **[Open Web Analytics](https://github.com/Open-Web-Analytics/Open-Web-Analytics)**
+  Open-source web analytics platform that explicitly supports generating heatmaps and session recordings alongside visitor, pageview, action, e-commerce, and geolocation analytics. It is one of the closest open-source projects to a traditional self-hosted web analytics + heatmap system.
+
+* **[PostHog](https://github.com/PostHog/posthog)**
+  Open-source product analytics platform combining event analytics, session replay, funnels, feature flags, experimentation, and heatmaps. It is broader than a dedicated heatmap tool and is particularly useful for product teams that want behavioral analytics in the same platform.
+
+* **[OpenReplay](https://github.com/openreplay/openreplay)**
+  Open-source, self-hostable session-replay and product-analytics platform designed for understanding real user behavior. It includes session replay and heatmap capabilities and is one of the strongest open-source alternatives for teams seeking a Hotjar-style behavioral analytics stack.
+
+* **[Heatmap.js](https://github.com/pa7/heatmap.js)**
+  Popular open-source JavaScript library for generating dynamic HTML5 Canvas heatmaps. It is a visualization building block rather than a complete Hotjar-style analytics platform, making it useful for custom click, geographic, movement, or interaction heatmaps.
+
+* **[Heat.js](https://github.com/williamtroup/Heat.js/)**
+  Open-source TypeScript/JavaScript heatmap library providing configurable interactive heatmap visualizations and statistics. It is useful for developers building custom analytics interfaces rather than deploying a complete behavioral-analytics service.
+
+* **[Heatmap](https://github.com/ploi/heatmap)**
+  Open-source self-hosted heatmap application providing click tracking and movement tracking. It can be deployed with PHP and a relational database and is explicitly positioned as open-source heatmapping software.
+
+* **[Athar](https://github.com/vul-os/athar)**
+  Self-hosted web analytics application with built-in click, scroll, and attention heatmaps, along with event analytics and other website metrics. It is designed around privacy and keeping analytics data on infrastructure controlled by the operator.
+
+* **[Pinconsole](https://github.com/iannil/pinconsole)**
+  Open-source self-hosted visitor-monitoring and session-replay platform positioned as an alternative to Hotjar, FullStory, LogRocket, and Smartlook. It provides real-time visitor monitoring, co-browsing, and session replay.
+
+* **[NotJar](https://github.com/sentu1993/NotJar)**
+  Open-source Hotjar alternative focused on website behavior analytics, heatmaps, session replay, privacy-conscious tracking, and self-hosting.
+
+* **[Umami](https://github.com/umami-software/umami)**
+  Open-source, privacy-focused web analytics platform with a lightweight architecture. It is primarily aggregate web analytics rather than a full heatmap/replay replacement, but can provide the event and traffic analytics layer around a custom heatmap implementation.
+
+* **[Plausible Analytics](https://github.com/plausible/analytics)**
+  Open-source, privacy-friendly web analytics platform focused on lightweight aggregate analytics. It is not a direct heatmap replacement but can complement custom heatmap instrumentation.
+
+* **[OpenPanel](https://github.com/OpenPanel-dev/openpanel)**
+  Open-source web and product analytics platform providing event analytics and product insights. It can serve as the behavioral analytics layer around custom heatmap collection.
+
+* **[Rybbit](https://github.com/rybbit-io/rybbit)**
+  Open-source, privacy-focused web analytics platform designed as a self-hostable alternative to mainstream analytics services. It can complement dedicated heatmap or session-replay components.
+
+* **[Swetrix](https://github.com/Swetrix/swetrix)**
+  Open-source privacy-first web analytics platform with cookie-free analytics, performance monitoring, and error tracking. It is better viewed as a complementary analytics layer than a dedicated heatmap replacement.
+
+* **[GoatCounter](https://github.com/arp242/goatcounter)**
+  Open-source, privacy-friendly web analytics system focused on simple website statistics. It does not attempt to replicate the full Hotjar feature set but can provide the aggregate traffic/event layer for a self-hosted behavioral analytics stack.
+
+* **[Ackee](https://github.com/electerious/Ackee)**
+  Self-hosted privacy-focused web analytics platform useful for collecting aggregate visitor and event data alongside custom heatmap implementations.
+
+* **[Highlight.io](https://github.com/highlight/highlight)**
+  Open-source observability and session-replay platform combining frontend monitoring, session replay, error tracking, and application performance insights. It is particularly useful when behavioral analysis needs to be connected directly to frontend errors and performance problems.
+
+* **[rrweb](https://github.com/rrweb-io/rrweb)**
+  Open-source session-recording framework that records and replays web applications. It is a foundational building block for creating custom session-replay products similar to Hotjar, FullStory, or OpenReplay.
+
+* **[rrweb-player](https://github.com/rrweb-io/rrweb)**
+  Replay infrastructure associated with rrweb for rendering recorded browser sessions, useful as a component in custom behavioral analytics applications.
+
+* **[PostHog JavaScript](https://github.com/PostHog/posthog-js)**
+  Open-source browser SDK for collecting product analytics events and behavioral information, useful when implementing a custom analytics and heatmap stack around PostHog.
+
+* **[Matomo](https://github.com/matomo-org/matomo)**
+  Major open-source web analytics platform. Its core provides extensive website analytics and can serve as a foundation for behavioral analytics; heatmap/session-recording functionality has historically been provided through additional functionality/plugins rather than being equivalent to a pure heatmap library.
+
+* **[Piwik PRO](https://github.com/PiwikPRO)**
+  Analytics ecosystem related to the Piwik family; useful for privacy-oriented analytics architectures, although it should not be treated as a fully open-source replacement for Hotjar's behavioral suite.
+
+* **[Fathom Lite](https://github.com/usefathom/fathom)**
+  Open-source privacy-oriented analytics project useful for lightweight website measurement, although it does not provide a full heatmap/session-replay feature set.
+
+### Additional Strong Open-Source Options
+
+* **Open Web Analytics** — complete self-hosted web analytics with native heatmaps and session recordings.
+* **PostHog** — broad product analytics with heatmaps, session replay, funnels, experiments, and event tracking.
+* **OpenReplay** — session replay and product analytics with heatmap capabilities.
+* **Athar** — lightweight self-hosted analytics with click, scroll, and attention heatmaps.
+* **Pinconsole** — self-hosted session replay and visitor monitoring.
+* **NotJar** — open-source Hotjar-style behavior analytics.
+* **Heatmap.js** — mature JavaScript heatmap visualization library.
+* **Heat.js** — configurable TypeScript heatmap visualization library.
+* **Heatmap** — lightweight self-hosted click and movement tracking application.
+* **rrweb** — session-recording infrastructure for building custom replay systems.
+* **Highlight.io** — open-source session replay plus frontend observability.
+* **Matomo** — full open-source web analytics foundation.
+* **Umami** — lightweight privacy-focused aggregate analytics.
+* **Plausible** — lightweight privacy-first website analytics.
+* **OpenPanel** — open-source product and web analytics.
+* **Rybbit** — privacy-focused self-hosted analytics.
+* **Swetrix** — privacy-focused analytics, performance, and error tracking.
+* **GoatCounter** — minimal privacy-friendly analytics.
+* **Ackee** — self-hosted privacy-oriented web analytics.
+
+**Important distinction**: The open-source ecosystem is considerably stronger for **building blocks** than for direct one-to-one replacements of Hotjar, Clarity, Mouseflow, or Contentsquare. A production-grade open-source behavioral analytics platform generally requires combining **event collection + click/scroll tracking + session recording + heatmap rendering + storage + segmentation + dashboards + privacy controls**.
+
+## Heatmap Analytics Stack
+
+A modern open-source **Heatmap Analytics Platform** can be assembled from several independent layers:
+
+1. **Browser Instrumentation** — JavaScript SDK / custom tracker
+2. **Click Tracking** — DOM click listeners
+3. **Scroll Tracking** — viewport and scroll-depth events
+4. **Mouse Movement** — pointer/mouse movement sampling
+5. **Attention Tracking** — dwell time and viewport visibility
+6. **Rage Click Detection** — repeated clicks in a small DOM region
+7. **Dead Click Detection** — clicks that produce no meaningful interaction
+8. **Element Tracking** — DOM selectors and element identifiers
+9. **Session Recording** — rrweb / OpenReplay
+10. **Heatmap Rendering** — Heatmap.js / Heat.js
+11. **Event Analytics** — PostHog / Umami / OpenPanel
+12. **Data Collection** — custom API / event collector
+13. **Event Streaming** — Kafka / Redis Streams
+14. **Storage** — PostgreSQL / ClickHouse
+15. **Session Data** — object storage for replay artifacts
+16. **Aggregation** — SQL / ClickHouse / DuckDB
+17. **Segmentation** — device, browser, geography, URL, campaign, cohort
+18. **Funnels** — custom event analytics / PostHog
+19. **Journey Analysis** — event sequences and session paths
+20. **Dashboards** — Grafana / Apache Superset / custom React UI
+21. **Privacy** — consent management, PII masking, IP anonymization
+22. **Observability** — Prometheus + Grafana
+23. **Deployment** — Docker + Kubernetes
+
+A practical self-hosted architecture could look like:
+
+**Browser SDK → Event Collector → Kafka / HTTP → ClickHouse/PostgreSQL → Aggregation → Heatmap.js → React Dashboard**
+
+For session replay:
+
+**Browser → rrweb → Replay Storage → Replay API → OpenReplay/Custom Player**
+
+For a broader behavioral analytics platform:
+
+**Browser SDK → PostHog/Open Web Analytics → Events + Sessions → Heatmaps + Replay + Funnels → CRO Dashboard**
+
+### Core Heatmap Types
+
+* **Click Heatmap** — shows where visitors click or tap.
+* **Move Heatmap** — visualizes mouse movement and pointer activity.
+* **Scroll Heatmap** — shows how far visitors scroll down a page.
+* **Attention Heatmap** — estimates areas receiving the most visual attention or dwell time.
+* **Confetti Map** — displays individual clicks segmented by attributes such as referrer, device, or campaign.
+* **Dead-Click Map** — identifies clicks that do not lead to meaningful interaction.
+* **Rage-Click Map** — highlights repeated rapid clicks that may indicate user frustration.
+* **Element Heatmap** — aggregates interactions by specific DOM elements.
+* **Mobile Touch Heatmap** — visualizes taps and touch interactions.
+* **Form Heatmap** — analyzes interaction patterns across form fields.
+* **Conversion Heatmap** — correlates page interactions with conversion events.
+* **Segmented Heatmap** — compares behavior across cohorts such as device, geography, traffic source, or customer type.
+
+### Key Heatmap Analytics Metrics
+
+* **Click Density**
+* **Unique Clicks**
+* **Click-Through Rate**
+* **Scroll Depth**
+* **Average Scroll Percentage**
+* **Element Interaction Rate**
+* **Rage Click Rate**
+* **Dead Click Rate**
+* **Session Duration**
+* **Pages per Session**
+* **Engaged Sessions**
+* **Exit Rate**
+* **Conversion Rate**
+* **Form Completion Rate**
+* **Form Abandonment Rate**
+* **Time to Interaction**
+* **Return Visitor Rate**
+* **Device-Specific Engagement**
+* **Mobile vs Desktop Behavior**
+* **Traffic-Source Behavior**
+* **Landing-Page Engagement**
+* **CTA Interaction Rate**
+* **Navigation Path**
+* **User Journey**
+* **Session Replay Count**
+* **Error-Associated Sessions**
+
+### Privacy & Compliance Considerations
+
+Heatmap and session-replay systems can collect highly granular information about visitor behavior. A self-hosted implementation should therefore consider:
+
+* **PII masking**
+* **Password-field masking**
+* **Sensitive-form-field masking**
+* **Consent management**
+* **IP anonymization**
+* **Cookie controls**
+* **Data retention policies**
+* **Deletion workflows**
+* **Role-based access control**
+* **Encryption at rest**
+* **Encryption in transit**
+* **Regional data residency**
+* **GDPR/CCPA compliance**
+* **Do-not-track considerations**
+* **Session replay exclusions**
+* **DOM-content filtering**
+
+Self-hosting can provide substantially greater control over behavioral data, but it does not automatically make a deployment privacy-compliant. The implementation, consent model, collected fields, retention policies, and applicable jurisdiction still matter.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Prioritize actively maintained projects with meaningful heatmap, click-tracking, scroll-tracking, session-replay, behavioral-analytics, or web-analytics functionality.
+5. Verify the project's current license before describing it as open source.
+6. Distinguish between a **complete behavioral analytics platform** and a **building block/library**.
+7. Submit a PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+* This is a **community-curated list** — not exhaustive and not an endorsement.
+* Heatmap libraries, web analytics platforms, session-replay systems, and full CRO suites serve different purposes and should not be treated as interchangeable.
+* Some listed open-source projects are visualization libraries or infrastructure components rather than complete Hotjar-style products.
+* Some platforms combine open-source components with proprietary hosted or enterprise functionality; verify the current licensing model before adoption.
+* Heatmap and session-replay systems can capture sensitive user information. Proper masking, consent, access controls, retention policies, and privacy safeguards are essential.
+* Self-hosting does not by itself guarantee GDPR, CCPA, or other regulatory compliance.
+* Browser privacy features and consent requirements can affect the completeness of behavioral data collection.
+* Heatmap results should be interpreted alongside quantitative analytics, usability research, conversion data, and qualitative feedback rather than treated as definitive evidence of user intent.
+* Open-source software licensing varies between projects; always verify the current license before commercial deployment.
+* Some projects may have changed ownership, licensing, maintenance status, or hosted-vs-self-hosted availability after this README was published.
+
+---
+
+**Made for product managers, UX researchers, CRO specialists, growth teams, marketers, web developers, frontend engineers, analytics engineers, and open-source enthusiasts.**
+Let's make website behavior analytics more open, privacy-conscious, customizable, and accessible.
+
