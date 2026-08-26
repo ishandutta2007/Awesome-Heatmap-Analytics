@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4b4b" />
+      <stop offset="25%" stop-color="#ff8c00" />
+      <stop offset="50%" stop-color="#ffd700" />
+      <stop offset="75%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <!-- Radial Heatmap Blobs -->
+    <radialGradient id="heat-spot-red" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1a40" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#ff7b00" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#ffe600" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="heat-spot-yellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd000" stop-opacity="0.8" />
+      <stop offset="45%" stop-color="#ff5e00" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00ffcc" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="heat-spot-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#4facfe" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.35" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes pulse1 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.85; }
+        50% { transform: scale(1.25) translate(-15px, 10px); opacity: 1; }
+      }
+      @keyframes pulse2 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.7; }
+        50% { transform: scale(1.3) translate(20px, -15px); opacity: 0.95; }
+      }
+      @keyframes pulse3 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+        50% { transform: scale(1.15) translate(-10px, -20px); opacity: 0.85; }
+      }
+      @keyframes clickRipples {
+        0% { r: 5; opacity: 1; stroke-width: 2.5; }
+        100% { r: 45; opacity: 0; stroke-width: 0.5; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100px); }
+        100% { transform: translateY(400px); }
+      }
+      .heat1 { animation: pulse1 6s ease-in-out infinite; transform-origin: 900px 140px; }
+      .heat2 { animation: pulse2 8s ease-in-out infinite; transform-origin: 1020px 220px; }
+      .heat3 { animation: pulse3 7s ease-in-out infinite; transform-origin: 780px 240px; }
+      .ripple1 { animation: clickRipples 2.5s cubic-bezier(0.1, 0.8, 0.3, 1) infinite; }
+      .ripple2 { animation: clickRipples 2.5s cubic-bezier(0.1, 0.8, 0.3, 1) infinite 1.25s; }
+      .scan { animation: scanline 7s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" rx="16" />
+
+  <!-- Background Grid -->
+  <rect width="1200" height="360" fill="url(#grid-pattern)" rx="16" />
+
+  <!-- Animated Heatmap Overlay Region (Right side interactive visualization) -->
+  <g opacity="0.95">
+    <!-- Website mockup wireframe card -->
+    <rect x="700" y="45" width="450" height="270" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5" opacity="0.85" />
+    <rect x="700" y="45" width="450" height="34" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    
+    <!-- Browser window dots -->
+    <circle cx="720" cy="62" r="5" fill="#ef4444" />
+    <circle cx="736" cy="62" r="5" fill="#f59e0b" />
+    <circle cx="752" cy="62" r="5" fill="#10b981" />
+    
+    <!-- Search / URL bar -->
+    <rect x="775" y="54" width="220" height="16" rx="8" fill="#090d16" opacity="0.7" />
+    
+    <!-- Wireframe content blocks -->
+    <rect x="725" y="100" width="140" height="24" rx="4" fill="#334155" opacity="0.5" />
+    <rect x="725" y="134" width="200" height="12" rx="3" fill="#334155" opacity="0.3" />
+    <rect x="725" y="152" width="170" height="12" rx="3" fill="#334155" opacity="0.3" />
+    
+    <!-- Wireframe CTA Buttons -->
+    <rect x="725" y="185" width="90" height="32" rx="6" fill="#3b82f6" opacity="0.4" />
+    <rect x="825" y="185" width="90" height="32" rx="6" fill="#475569" opacity="0.3" />
+    
+    <!-- Wireframe Card Columns -->
+    <rect x="725" y="235" width="125" height="60" rx="6" fill="#1e293b" opacity="0.5" />
+    <rect x="862" y="235" width="125" height="60" rx="6" fill="#1e293b" opacity="0.5" />
+    <rect x="1000" y="235" width="125" height="60" rx="6" fill="#1e293b" opacity="0.5" />
+    
+    <!-- Dynamic Heatmap Spots -->
+    <!-- Primary Hotspot (CTA Button) -->
+    <circle class="heat1" cx="770" cy="201" r="95" fill="url(#heat-spot-red)" filter="url(#glow)" />
+    
+    <!-- Secondary Hotspot (Nav / Feature card) -->
+    <circle class="heat2" cx="1060" cy="255" r="85" fill="url(#heat-spot-yellow)" filter="url(#glow)" />
+    
+    <!-- Tertiary Hotspot (Headline & Hero) -->
+    <circle class="heat3" cx="795" cy="112" r="75" fill="url(#heat-spot-cyan)" filter="url(#glow)" />
+
+    <!-- Click Ripples (Dynamic Radar Effect) -->
+    <circle class="ripple1" cx="770" cy="201" r="15" fill="none" stroke="#ff3b30" />
+    <circle class="ripple2" cx="770" cy="201" r="15" fill="none" stroke="#ff9500" />
+
+    <circle class="ripple1" cx="1060" cy="255" r="15" fill="none" stroke="#ffcc00" />
+    
+    <!-- Mouse Cursor Pointer -->
+    <path d="M 765 195 L 778 228 L 771 230 L 767 240 L 761 237 L 765 227 L 755 224 Z" fill="#ffffff" stroke="#0f172a" stroke-width="1.5" filter="url(#subtle-glow)" />
+  </g>
+
+  <!-- Left Content: Typography & Highlights -->
+  <g transform="translate(60, 0)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 52)">
+      <rect width="210" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="15" cy="14" r="5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="28" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">CURATED ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="130" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">
+      Awesome Heatmap
+    </text>
+    <text x="0" y="178" fill="url(#accent-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">
+      Analytics &amp; Replay
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="218" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      The definitive guide to Click Maps, Scroll Depth, Session Replay,
+    </text>
+    <text x="0" y="240" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      CRO Optimization &amp; Open-Source Behavioral Tracking Platforms.
+    </text>
+
+    <!-- Highlights Tag Pill Row -->
+    <g transform="translate(0, 272)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="130" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="65" y="18" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🔥 SaaS Platforms</text>
+
+      <!-- Pill 2 -->
+      <rect x="140" y="0" width="145" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="212" y="18" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ Open-Source Stack</text>
+
+      <!-- Pill 3 -->
+      <rect x="295" y="0" width="140" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="365" y="18" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🎥 Session Replay</text>
+
+      <!-- Pill 4 -->
+      <rect x="445" y="0" width="135" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="512" y="18" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">📈 CRO &amp; Funnels</text>
+    </g>
+  </g>
+
+  <!-- Border Gradient -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="url(#accent-grad)" stroke-width="1.5" stroke-opacity="0.4" />
+</svg>
